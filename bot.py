@@ -74,9 +74,9 @@ async def schedule_session(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     account_details = (
         "💳 *Payment Details:*\n"
-        "`Account Name:` PRECYS GLOW BEAUTY HUB\n"
-        "`Account Number:` 1234567890\n"
-        "`Bank:` XYZ Bank\n\n"
+        "`Account Name:` PRECIOS UZOMA OBI\n"
+        "`Account Number:` 7052184296\n"
+        "`Bank:` OPAY\n\n"
         "Please transfer the deposit and then reply with the *Account Name used* and *Amount Paid*.\n\n"
         "_Example: Jane Doe, ₦5,000_"
     )

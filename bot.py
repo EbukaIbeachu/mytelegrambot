@@ -6,9 +6,9 @@ from telegram.ext import (
 )
 import os
 
-# === CONFIGURATION ===
-TOKEN = "8108165211:AAEhiP5fm0JlowYk_oLzkiq7E9HHEOGpiPs"
-ADMIN_CHAT_ID = 6612187231  # Replace with your Telegram user ID
+TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID"))
+  # Replace with your Telegram user ID
 
 # === STATES ===
 CHOOSE_SERVICE, SCHEDULE_SESSION, AWAIT_PAYMENT_DETAILS = range(3)
